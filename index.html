@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarks LK</title>
+    <link rel = "icon" type = "image/png" href = "./iconimg/Icon-40.png" class="icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="./mainScript.js"></script>
+    <script src="./jquery-ui.js"></script>
+    <link href="./jquery-ui.css" rel="stylesheet">
+    <link href="http://code.jquery.com/ui/1.10.4/themes/hot-sneaks/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--nav bar link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+		<div class="navtop" id="mynavTop">
+            <a href="./index.html" class="active">Home</a>
+            <div class="dropdownNav">
+                <button class="dropbtnNav"> Shoes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdownNav-contentNav megaNav-menuNav animateNav">
+                    <ul>
+                        <li class="titleDd"> Women Canvas</li>
+                        <li class="animateNav"><a href="./shoes/shoe4.html">Aceley Lace Light Pink</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Flats</li>
+                        <li class="animateNav"><a href="./shoes/shoe1.html">Pure Tone</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Heels</li>
+                        <li class="animateNav"><a href="./shoes/shoe5.html">Jocelynne Cam Natural Snake</a></li>
+                        <li class="animateNav"><a href="./shoes/shoe3.html">Vista Strap White Combi</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Sandal</li>
+                        <li class="animateNav"><a href="./shoes/shoe6.html">Nature Trek Tan Combi</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Smart Shoes</li>
+                        <li class="animateNav"><a href="./shoes/shoe7.html">James Wing Light Tan Leather</a></li> 
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Boot</li>
+                        <li class="animateNav"><a href="./shoes/shoe2.html">Orinoco 2 Lace</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Kids Canvas</li>
+                        <li class="animateNav"><a href="./shoes/shoe8.html">Toddler Navy Canvas</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contac.html">Contact</a>
+            <a href="#" style="float:right;margin:0 0%;"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#" style="float:right;margin:0 0%;"><i class="fa fa-heart"></i></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div class="vdo">
+            <video autoplay muted loop id="bgVideo" class="print-video" src="./videoBG/Shoe Video Presentation.mp4"></video>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="print-search-engin">
+            <fieldset>   
+                <div class="set1">
+                    <!-- ---------------gender----------------------------- -->
+                    <label for="Gender">Gender :</label>
+                    <select name="Gender" id="Gender">
+                        <option value="Any" selected>Any</option>
+                        <option value="Mens">Men</option>
+                        <option value="Women">Women</option>
+                        <option value="Kids">Kids</option>
+                        
+                    </select>
+                    <!-- ---------------style----------------------------- -->
+                    <label for="style">Style :</label>
+                    <select name="style" id="style">
+                        <option value="Any" selected>Any</option>
+                        <option value="Canvas">Canvas</option>
+                        <option value="Flat">Flats</option>
+                        <option value="Heels">Heels</option>
+                        <option value="Sandal">Sandals</option>
+                        <option value="Smart shoes">Smart Shoes</option>
+                        <option value="Boot">Boots</option>
+                        
+                    </select>
+                    <!-- ---------------colour----------------------------- -->      
+                    <label for="colour">Colour :</label>
+                    <select name="colour" id="colour">
+                        <option value="Any" selected>Any</option>
+                        <option value="Light Pink">Light Pink</option>
+                        <option value="Black">Black</option>
+                        <option value="Navy Blue">Navy Blue</option>
+                        <option value="Natural Snake">Natural Snake</option>
+                        <option value="White Combi">WhiteCombi</option>
+                        <option value="Tan Combi">Tan Combi</option>
+                        <option value="Light Tan Leather">Light Tan Leather</option>
+                        <option value="Brown">Brown</option>
+                        
+                    </select>
+                </div>
+                <!-- ---------------size----------------------------- -->
+                <div class="set2">
+                    <div class="sizeSel">
+                        <label for="spinner">Size :</label>
+                        <input id="spinner" value="Any" style="width: 30px;">
+                    </div>
+                    <!-- ---------------price----------------------------- -->
+                    <div class="priceSel">
+                        <label for="slider">Price Range :</label>
+                        <input type="text" id="amount" name="slider" readonly class="goldSliderText">
+                        <div id="slider-range" class="slider" style="margin-left: 15px;"></div>
+                    </div>
+                </div>
+                <div class="set3">
+                    <button id="Search" class="btn">Search</button> 
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+   <!---------------------------------Basket/Fav List----------------------------------------->
+    <section class="sec2">
+        <div class="product-box">
+            <div id="custom"></div>
+        </div>    
+        <aside id="sidebar">
+            <div class="basket">
+                <div class="basket_list">
+                    <div class="head">
+                        <span class="name">Product name</span>
+                        <span class="count">Quantity</span>
+                    </div>
+                    <ul class="ul">
+                    </ul>
+                    <div id="fav"></div>
+                    <button class="showLst">viwe all fav shoes</button>
+                    <div class="helpBk">
+                        <div class="questionBk">!</div>
+                            <div class="popupBk">
+                                <p>You can <strong>Drag</strong> and <strong>Drop</strong> your <b>Favourite</b> shoes in here.</p>
+                                <p>and <strong>You can viwe all Favourite shoses</strong> in here by pressing <strong>"viwe all fav shoes"</strong>.</p><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>  
+    </section>
+    
+    
+    <!-- video sound mute / unmute script -->
+    <script>
+        var audio, playbtn, mutebtn, seek_bar;
+        function initAudioPlayer(){
+            audio = new Audio();
+            audio.src = "./videoBG/Shoe Video Presentation.mp4";
+            audio.loop = true;
+            audio.play();
+            $("#playpausebtn").css("background-image","url(http://image.flaticon.com/icons/svg/10/10430.svg)");
+            // Set object references
+            playbtn = document.getElementById("playpausebtn");
+            
+            // Add Event Handling
+            playbtn.addEventListener("click",playPause);
+           
+            // Functions
+            function playPause(){
+                if(audio.paused){
+                    audio.play();
+                    playbtn.style.background = "./videoBG/Shoe Video Presentation.mp4";
+                    $("#playpausebtn").css("background-image","url(http://image.flaticon.com/icons/svg/10/10430.svg)");
+    
+                } else {
+                    audio.pause();
+                    playbtn.style.background = "./videoBG/Shoe Video Presentation.mp4";
+                    $("#playpausebtn").css("background-image","url(http://image.flaticon.com/icons/svg/10/10776.svg)");
+                }
+            }
+           
+        }
+        window.addEventListener("load", initAudioPlayer);
+        $( "#Search" ).click(function() {
+            $("#sidebar").show();
+        });
+    </script>
+
+    <button id="playpausebtn"></button>
+    <script>
+        var data = {
+
+            "shoes": [
+                {   
+                    "id":"shoe1",
+                    "source":"https://www.clarks.co.uk/c/Pure-Tone/p/26149727",
+                    "name":"Pure Tone",
+                    "gender":"Women",
+                    "style":"Flat",
+                    "sizes":4, 
+                    "price":75.00,
+                    "colour":"Black",
+                    "description":"These chic snake print shoes are crafted from a combination of soft leather and nubuck. For ultimate versatility, they feature a heel piece that folds down - allowing them to be worn as slip-ons or mules. The simple yet sophisticated upper is teamed with a low 2cm heel and rubber outsole to help with grip, while a leather lining and sock work together with our dual density Cushion Plus™ technology to provide comfort in every step.",           
+                    "picture":"images/shoe1_0.jpg",
+                    "url":"shoes/shoe1.html"
+                },
+                {
+                    "id":"shoe2",
+                    "source":"https://www.clarks.co.uk/c/Orinoco-2-Lace/p/26153928",
+                    "name":"Orinoco 2 Lace",
+                    "gender":"Women",
+                    "style":"Boot",
+                    "sizes":5, 
+                    "price":89.00,
+                    "colour":"Brown",
+                    "description":"Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day wearable. The premium dark olive leather upper stays classic and crafted while the cleated sole with 3cm heel feels durable and adds grip. Perfect to step into the season with casual style.",
+                    "picture":"images/shoe2_0.jpg",
+                    "url":"shoes/shoe2.html"
+                },
+                {   
+                    "id":"shoe3",
+                    "source":"https://www.clarks.co.uk/c/Vista-Strap/p/26158301",
+                    "name":"Vista Strap White Combi",
+                    "gender":"Women",
+                    "style":"Heels",
+                    "sizes":3,
+                    "price":89.00,
+                    "colour":"White Combi",
+                    "description":"Strappy Vista Strap platform sandal in white combination has a high sculptured heel to create a feminine, powerful profile for parties or everyday statement wear. With responsibly sourced leather for the upper and lining, an Eco Foam footbed and recycled content in the heel and sole, it is the conscious choice.",            
+                    "picture":"images/shoe3_0.jpg",
+                    "url":"shoes/shoe3.html"
+                },
+                {
+                    "id":"shoe4",
+                    "source":"https://www.clarks.co.uk/c/Aceley-Lace/p/26158993",
+                    "name":"Aceley Lace Light Pink",
+                    "gender":"Women",
+                    "style":"Canvas",
+                    "sizes": 5, 
+                    "price":69.00,
+                    "colour":"Light Pink",
+                    "description":"Experience comfort in its purest form with our new eco-friendly trainer, Aceley Lace. Responsibly sourced light pink suede uppers help lighten environmental footprint, teaming with durable recycled rubber and bio-based soles and recycled foam cushioning for earth-friendly comfort underfoot. Finished with recycled laces and recycled cotton linings, its ultra-light Strobel construction enhances flexibility, too – perfect for the spring-summer season.",
+                    "picture":"images/shoe4_0.jpg",
+                    "url":"shoes/shoe4.html"
+                },
+                {   
+                    "id":"shoe5",
+                    "source":"https://www.clarks.co.uk/c/Jocelynne-Cam/p/26159494",
+                    "name":"Jocelynne Cam Natural Snake",
+                    "gender":"Women",
+                    "style":"Heels",
+                    "sizes":6,
+                    "price":55.00,
+                    "colour":"Natural Snake",
+                    "description":"With an elegant upper in natural snake, Jocelynne Cam combines a contemporary block heel and innovative Ultimate Comfort foam footbed to create a timeless look that is just as at home dressed up for an event as it is on a casual weekend.",            
+                    "picture":"images/shoe5_0.jpg",
+                    "url":"shoes/shoe5.html"
+                },
+                {
+                    "id":"shoe6",
+                    "source":"https://www.clarks.co.uk/c/Orinoco-2-Lace/p/26153928",
+                    "name":"Nature Trek Tan Combi",
+                    "gender":"Mens",
+                    "style":"Sandal",
+                    "sizes":7,
+                    "price":89.00,
+                    "colour":"Tan Combi",
+                    "description":"With iconic styling that taps into an essential Clarks heritage, Nature Trek is a wraparound sandal that adjusts across the foot for full comfort. The leather-lined upper in premium tan combi leathers sits on an ergonomic footbed that gives stability. The grippy rubber sole features recycled content and a lifetime of depth of comfort.",
+                    "picture":"images/shoe6_0.jpg",
+                    "url":"shoes/shoe6.html"
+                },
+                {   
+                    "id":"shoe7",
+                    "source":"https://www.clarks.co.uk/c/Vista-Strap/p/26158301",
+                    "name":"James Wing Light Tan Leather",
+                    "gender":"Mens",
+                    "style":"Smart Shoes",
+                    "sizes": 8,
+                    "price":130.00,
+                    "colour":"Light Tan Leather",
+                    "description":"Part of our premium Craftmaster collection, this classic wingtip brogue in tan leather has a contemporary hand finish. Expertly crafted with a flexible welt and leather sole, it also targets underfoot cushioning for all-day comfort.",            
+                    "picture":"images/shoe7_0.jpg",
+                    "url":"shoes/shoe7.html"
+                },
+                {   
+                    "id":"shoe8",
+                    "source":"https://www.clarks.co.uk/c/City-Bright-Toddler/p/26149087",
+                    "name":"Toddler Navy Canvas",
+                    "gender":"Kids",
+                    "style":"Canvas",
+                    "sizes":9,
+                    "price":22.00,
+                    "colour":"Navy Blue",
+                    "description":"An iconic summer essential, City Bright has been specifically designed for all-day play. As well as the fun design, practical features include the lightweight canvas upper, flexible EVA cushioned sole and adjustable riptape straps. Tested by real kids, summer styling has never been so easy. Machine washable. Available in whole and half sizes and different widths.",            
+                    "picture":"images/shoe8_1S.jpg",
+                    "url":"shoes/shoe8.html"
+                }
+            ]
+        }      
+    </script>
+     <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+      </script>
+</body>
+</html>

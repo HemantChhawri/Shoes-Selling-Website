@@ -1,0 +1,94 @@
+{
+	"shoes": [
+        {   
+            "id":"shoe1",
+            "source":"https://www.clarks.co.uk/c/Pure-Tone/p/26149727",
+            "name":"Pure Tone",
+            "gender":"Women",
+            "style":"Flat",
+            "sizes":[4, 4.5, 5, 5.5, 6, 6.5, 7],
+            "price":75.00,
+            "colour":"Black",
+            "description":"These chic snake print shoes are crafted from a combination of soft leather and nubuck. For ultimate versatility, they feature a heel piece that folds down - allowing them to be worn as slip-ons or mules. The simple yet sophisticated upper is teamed with a low 2cm heel and rubber outsole to help with grip, while a leather lining and sock work together with our dual density Cushion Plus™ technology to provide comfort in every step.",            
+            "picture":"images/shoe1_0.jpg",
+            "url":"shoes/shoe1.html"
+        },
+		{
+            "id":"shoe2",
+            "source":"https://www.clarks.co.uk/c/Orinoco-2-Lace/p/26153928",
+            "name":"Orinoco 2 Lace",
+            "gender":"Women",
+            "style":"Boot",
+            "sizes":[5, 6, 7],
+			"price":89.00,
+            "colour":"Brown",
+			"description":"Refreshing our bestselling Orinoco profile, a lace-up ankle boot that stays all day wearable. The premium dark olive leather upper stays classic and crafted while the cleated sole with 3cm heel feels durable and adds grip. Perfect to step into the season with casual style.",
+			"picture":"images/shoe2_0.jpg",
+			"url":"shoes/shoe2.html"
+        },
+        {   
+            "id":"shoe3",
+            "source":"https://www.clarks.co.uk/c/Vista-Strap/p/26158301",
+            "name":"Vista Strap White Combi",
+            "gender":"Women",
+            "style":"heels",
+            "sizes":[3, 4, 4.5, 5, 5.5, 6, 6.5, 7],
+            "price":89.00,
+            "colour":"White Combi",
+            "description":"Strappy Vista Strap platform sandal in white combination has a high sculptured heel to create a feminine, powerful profile for parties or everyday statement wear. With responsibly sourced leather for the upper and lining, an Eco Foam footbed and recycled content in the heel and sole, it is the conscious choice.",            
+            "picture":"images/shoe3_0.jpg",
+            "url":"shoes/shoe3.html"
+        },
+		{
+            "id":"shoe4",
+            "source":"https://www.clarks.co.uk/c/Aceley-Lace/p/26158993",
+            "name":"Aceley Lace Light Pink",
+            "gender":"Women",
+            "style":"running",
+            "sizes":[3, 4, 4.5, 5, 5.5, 6, 6.5, 7, 8],
+			"price":69.00,
+            "colour":"Light Pink",
+			"description":"Experience comfort in its purest form with our new eco-friendly trainer, Aceley Lace. Responsibly sourced light pink suede uppers help lighten environmental footprint, teaming with durable recycled rubber and bio-based soles and recycled foam cushioning for earth-friendly comfort underfoot. Finished with recycled laces and recycled cotton linings, its ultra-light Strobel construction enhances flexibility, too – perfect for the spring-summer season.",
+			"picture":"images/shoe4_0.jpg",
+			"url":"shoes/shoe4.html"
+        },
+        {   
+            "id":"shoe5",
+            "source":"https://www.clarks.co.uk/c/Jocelynne-Cam/p/26159494",
+            "name":"Jocelynne Cam Natural Snake",
+            "gender":"Women",
+            "style":"heels",
+            "sizes":[3, 4, 4.5, 5, 5.5, 6, 6.5, 7, 8],
+            "price":55.00,
+            "colour":"Natural Snake",
+            "description":"With an elegant upper in natural snake, Jocelynne Cam combines a contemporary block heel and innovative Ultimate Comfort foam footbed to create a timeless look that is just as at home dressed up for an event as it is on a casual weekend.",            
+            "picture":"images/shoe5_0.jpg",
+            "url":"shoes/shoe5.html"
+        },
+		{
+            "id":"shoe6",
+            "source":"https://www.clarks.co.uk/c/Orinoco-2-Lace/p/26153928",
+            "name":"Nature Trek Tan Combi",
+            "gender":"Mens",
+            "style":"Sandal",
+            "sizes":[3, 4, 4.5, 5, 5.5, 6, 6.5, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 12],
+			"price":89.00,
+            "colour":"Tan Combi",
+			"description":"With iconic styling that taps into an essential Clarks heritage, Nature Trek is a wraparound sandal that adjusts across the foot for full comfort. The leather-lined upper in premium tan combi leathers sits on an ergonomic footbed that gives stability. The grippy rubber sole features recycled content and a lifetime of depth of comfort.",
+			"picture":"images/shoe6_0.jpg",
+			"url":"shoes/shoe6.html"
+        },
+        {   
+            "id":"shoe7",
+            "source":"https://www.clarks.co.uk/c/Vista-Strap/p/26158301",
+            "name":"James Wing Light Tan Leather",
+            "gender":"Mens",
+            "style":"Smart shoes",
+            "sizes":[7, 7.5, 8, 8.5, 9, 9.5, 10],
+            "price":130.00,
+            "colour":"Light Tan Leather",
+            "description":"Part of our premium Craftmaster collection, this classic wingtip brogue in tan leather has a contemporary hand finish. Expertly crafted with a flexible welt and leather sole, it also targets underfoot cushioning for all-day comfort.",            
+            "picture":"images/shoe7_0.jpg",
+            "url":"shoes/shoe7.html"
+        }
+]}

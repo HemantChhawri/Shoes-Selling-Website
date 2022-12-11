@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clarks LK</title>
+    <link rel = "icon" type = "image/png" href = "../iconimg/Icon-40.png" class="icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="shoes.css">
+	<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../mainScript.js"></script>
+	<script src="../jquery-ui.js"></script>
+	<!---nav link-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+	<script>
+
+		$(document).ready(function() {
+            $("#tabs-5").tabs({
+                    active: 0,
+                   
+                })
+        })
+	</script>
+</head>
+<body>
+	<section>
+		<div class="navtop" id="mynavTop">
+            <a href="../index.html" class="active">Home</a>
+            <div class="dropdownNav">
+                <button class="dropbtnNav"> Shoes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdownNav-contentNav megaNav-menuNav animateNav">
+                    <ul>
+                        <li class="titleDd">Running</li>
+                        <li class="animateNav"><a href="./shoe4.html">Aceley Lace Light Pink</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Flats</li>
+                        <li class="animateNav"><a href="./shoe1.html">Pure Tone</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Heels</li>
+                        <li class="animateNav"><a href="./shoe5.html">Jocelynne Cam Natural Snake</a></li>
+                        <li class="animateNav"><a href="./shoe3.html">Vista Strap White Combi</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Sandal</li>
+                        <li class="animateNav"><a href="./shoe6.html">Nature Trek Tan Combi</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Smart Shoes</li>
+                        <li class="animateNav"><a href="./shoe7.html">James Wing Light Tan Leather</a></li> 
+                    </ul>
+                    <ul>
+                        <li class="titleDd">Boot</li>
+                        <li class="animateNav"><a href="./shoe2.html">Orinoco 2 Lace</a></li>
+                    </ul>
+					<ul>
+                        <li class="titleDd">Kids Canvas</li>
+                        <li class="animateNav"><a href="./shoe8.html">Toddler Navy Canvas</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <a href="../aboutUs.html">About Us</a>
+            <a href="../contac.html">Contact</a>
+            <a href="#" style="float:right;margin:0 0%;"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#" style="float:right;margin:0 0%;"><i class="fa fa-heart"></i></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </section>
+	<div id="content">
+		<div class="column">
+			<img id="firstImg" src="../images/shoe3_0_Large.jpg" >
+			<div id="slide">
+				<img id="slideLeft" class="arrow"  src="../images/arrow-left.png">
+
+				<div id="slider">
+					<img class="thumbnailShoes activeImage" src="../images/shoe3_0_Large.jpg" >
+					<img class="thumbnailShoes" src="../images/shoe3_1_Large.jpg" >
+					<img class="thumbnailShoes" src="../images/shoe3_2_Large.jpg">
+					<img class="thumbnailShoes" src="../images/shoe3_3_Large.jpg" >
+					<img class="thumbnailShoes" src="../images/shoe3_4_Large.jpg">
+					<img class="thumbnailShoes" src="../images/shoe3_5_Large.jpg" >
+					<img class="thumbnailShoes" src="../images/shoe3_6_Large.jpg" >
+				</div>
+
+				<img id="slideRight" class="arrow"  src="../images/arrow-right.png">
+
+			</div>
+		</div>
+
+		<div class="column">
+			<h1>Vista Strap White Combi</h1>
+			<h3> Gender	&rarr; Women</h3>
+			<hr>
+			<h4> £89.00</h4>
+			<h5>COLOUR &nbsp; White Combi </h5>
+			<!-- <label>
+				<input class="box-elements" type="radio" name="size-select" data-code-value="SIZE_8030" data-type="size" data-prompt-value="3" aria-pressed="true" value="">
+				<span id="SIZE_8030-lable" tabindex="-1">3</span> 
+				
+			</label> -->
+			<div class="box-selectors" data-selection="Size">
+				<fieldset>
+					<legend class="visuallyhidden">SELECT SIZE:</legend>
+					<div class="box-selectors__wrapper">
+						<label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8040" data-type="size" data-prompt-value="4" aria-pressed="false" value="">
+                            <span id="SIZE_8040-label" tabindex="-1">4</span>
+                            <!-- <span id="SIZE_8040-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8045" data-type="size" data-prompt-value="4½" aria-pressed="false" value="">
+                            <span id="SIZE_8045-label" tabindex="-1">4½</span>
+                            <!-- <span id="SIZE_8045-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8050" data-type="size" data-prompt-value="5" aria-pressed="false" value="">
+                            <span id="SIZE_8050-label" tabindex="-1">5</span>
+                            <!-- <span id="SIZE_8050-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8055" data-type="size" data-prompt-value="5½" aria-pressed="false" value="">
+                            <span id="SIZE_8055-label" tabindex="-1">5½</span>
+                            <!-- <span id="SIZE_8055-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8060" data-type="size" data-prompt-value="6" aria-pressed="false" value="">
+                            <span id="SIZE_8060-label" tabindex="-1">6</span>
+                            <!-- <span id="SIZE_8060-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8065" data-type="size" data-prompt-value="6½" aria-pressed="false" value="">
+                            <span id="SIZE_8065-label" tabindex="-1">6½</span>
+                            <!-- <span id="SIZE_8065-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+                    <label>
+                            <input type="radio" name="size-selected" class="box-elements js-choose-item clickLink available" data-code-value="SIZE_8070" data-type="size" data-prompt-value="7" aria-pressed="false" value="">
+                            <span id="SIZE_8070-label" tabindex="-1">7</span>
+                            <!-- <span id="SIZE_8070-stock" tabindex="-1" class="visuallyhidden">In Stock</span> -->
+                    </label>
+
+						</div>
+				</fieldset>
+				<p id="shoe3">
+					<button class="addFavourites">Add To Favourites</button>
+					<button class="removeFavourites">Remove from Favourites</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id = "tabs-5">
+		<ul class="no-bullets">
+			<li title="DELIVERY AND RETURNS"><a href = "#tabs-6" class="tabs"><svg viewBox="0 0 24 24"><path d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69 22,10.96L21,11.54V16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V10.96C2.7,11.13 2.32,11.14 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77 13.3,15.76 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z" /></svg><br><span>PRODUCT DESCRIPTION</span></a></li>
+			<li title="DELIVERY AND RETURNS"><a href = "#tabs-7" class="tabs"><svg viewBox="0 0 24 24"><path d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0 18,20A3,3 0 0,0 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0 0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z" /></svg><br><span>DELIVERY AND RETURNS</span></a></li>
+			<li title="SIZE GUIDE"><a href = "#tabs-8" class="tabs"><svg viewBox="0 0 24 24"><path d="M14,2A8,8 0 0,0 6,10A8,8 0 0,0 14,18A8,8 0 0,0 22,10H20C20,13.32 17.32,16 14,16A6,6 0 0,1 8,10A6,6 0 0,1 14,4C14.43,4 14.86,4.05 15.27,4.14L16.88,2.54C15.96,2.18 15,2 14,2M20.59,3.58L14,10.17L11.62,7.79L10.21,9.21L14,13L22,5M4.93,5.82C3.08,7.34 2,9.61 2,12A8,8 0 0,0 10,20C10.64,20 11.27,19.92 11.88,19.77C10.12,19.38 8.5,18.5 7.17,17.29C5.22,16.25 4,14.21 4,12C4,11.7 4.03,11.41 4.07,11.11C4.03,10.74 4,10.37 4,10C4,8.56 4.32,7.13 4.93,5.82Z" /></svg><br><span>SIZE GUIDE</span></a></li> 
+		</ul>
+		<div class="slider">
+			<div class="indicator"></div>
+		</div>
+		<div class="contentofdetails">
+			<section>
+				<div id = "tabs-8">
+					<h2>Size Guide</h2>
+					<p>We know correctly fitting shoes are important which is why we offer whole and half sizes and a range of widths for a perfect fit!</p>
+					<h3 class="topic">Womens Clarks shoe sizes</h3>
+		
+					<table class="returnDelatil">
+						<tr>
+							<th>Clarks UK Size</th>
+							<th>Clarks EU Size</th>
+							<th>Standard UK Size</th>
+							<th>Foot length (MMs)</th>
+		
+						</tr>
+						<tr>
+							<td> 4  </td>
+							<td> 37 </td>
+							<td> 37 </td>
+							<td> 229</td>
+						</tr>
+						<tr>
+							<td> 4½	 </td>
+							<td> 37½ </td>
+							<td> 37½ </td>
+							<td> 233 </td>
+						</tr>
+						<tr>
+							<td> 5	 </td>
+							<td>38	</td>
+							<td>38	</td>
+							<td>237</td>
+						</tr>
+						<tr>
+							<td> 5½	</td>
+							<td>39</td>
+							<td>38½	</td>
+							<td> 241 </td>
+						</tr>
+						<tr>
+							<td> 6</td>
+							<td>39½	</td>
+							<td> 39	</td>
+							<td> 246 </td>
+						</tr>
+						<tr>
+							<td> 6½	</td>
+							<td> 40	 </td>
+							<td> 40	</td>
+							<td> 250 </td>
+						</tr>
+						<tr>
+							<td> 7 </td>
+							<td> 41</td>
+							<td> 41	</td>
+							<td> 254 </td>
+						</tr>
+						
+					</table>
+				</div>
+				<div id="tabs-7">
+					<fieldset>
+						<legend class="returnstabLagend">Delivery and Returns</legend>
+						<table>
+							<tr>
+								<td>£6.95</td>
+								<td>DPD Next Day Delivery (Order before 7pm)</td>
+							</tr>
+							<tr>
+								<td>FREE</td>
+								<td>Collect from store (Within 4 working days)</td>
+							</tr>
+							<tr>
+								<td>£3.95</td>
+								<td>Standard Delivery (Within 4 working days)</td>
+							</tr>
+							<tr>
+								<td>£3.95</td>
+								<td>Collect Plus (Within 5 working days)</td>
+							</tr>
+							<tr>
+								<td>£5.95</td>
+								<td>Hermes Express Delivery (Within 2 working days)</td>
+							</tr>
+							<tr>
+								<td>FREE</td>
+								<td>Returns on all items</td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<div id="tabs-6">
+					<h2>PRODUCT DESCRIPTION</h2>
+					<p>Strappy Vista Strap platform sandal in white combination has a high sculptured heel to create a feminine, powerful profile for parties or everyday statement wear. With responsibly sourced leather for the upper and lining, an Eco Foam footbed and recycled content in the heel and sole, it is the conscious choice.</p>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let thumbnailShoes = document.getElementsByClassName('thumbnailShoes')
+
+		let activeImage = document.getElementsByClassName('activeImage')
+
+		for(var i=0; i < thumbnailShoes.length; i++){
+			thumbnailShoes[i].addEventListener('click' , function(){
+				console.log(activeImage)
+
+				if(activeImage.length > 0){
+					activeImage[0].classList.remove('activeImage')
+				}
+
+				this.classList.add('activeImage')
+				document.getElementById('firstImg').src = this.src
+			})
+		}
+
+		let buttonRigth = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click' , function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRigth.addEventListener('click' , function(){
+			document.getElementById('slider').scrollLeft += 180
+		})
+
+	</script>
+
+</body>
+</html>
